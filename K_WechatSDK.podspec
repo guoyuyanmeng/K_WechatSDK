@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "K_WechatSDK"
-  s.version      = "1.0"
+  s.version      = "1.0.1"
   s.summary      = "K_WechatSDK is a ios third resource management tools ."
 
   # This description is used to generate tags and improve search results.
