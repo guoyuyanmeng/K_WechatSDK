@@ -120,7 +120,7 @@ Pod::Spec.new do |s|
   s.frameworks = "SystemConfiguration", "Security","CoreTelephony","CFNetwork"
 
   # s.library   = "iconv"
-  s.libraries =  "libz.dylib"=", "libsqlite3.0.dylib", "libc++.dylib"
+  s.libraries =  "libz", "libsqlite3.0", "libc++"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
