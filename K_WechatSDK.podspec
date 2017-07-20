@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "K_WechatSDK"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "K_WechatSDK"
 
   # This description is used to generate tags and improve search results.
