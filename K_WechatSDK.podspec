@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "K_WechatSDK"
-  s.version      = "0.0.1"
+  s.version      = "1.0"
   s.summary      = "K_WechatSDK is a ios third resource management tools ."
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
+  #  s.description  = <<-DESC
                    DESC
 
   s.homepage     = "https://github.com/guoyuyanmeng/K_WechatSDK/"
@@ -120,7 +120,7 @@ Pod::Spec.new do |s|
   s.frameworks = "SystemConfiguration", "Security","CoreTelephony","CFNetwork"
 
   # s.library   = "iconv"
-  s.libraries =  "libz", "libsqlite3.0", "libc++"
+  s.libraries =  "z", "sqlite3.0", "c++"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
